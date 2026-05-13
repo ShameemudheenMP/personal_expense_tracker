@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+
+# build
+dist/
+build/
+
+# env
+.env
+
+# logs
+*.log
+
+# Angular
+.angular/
+
+# IDE
+.vscode/
+.idea/
+
+# mac/windows
+.DS_Store
+Thumbs.db
