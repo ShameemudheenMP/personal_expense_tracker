@@ -1,0 +1,15 @@
+.expense-container {
+  @apply max-w-4xl mx-auto p-6;
+}
+
+.expense-row {
+  @apply hover:bg-gray-700/50 transition-colors;
+}
+
+.loading-state, .empty-state {
+  @apply flex justify-center items-center py-10 text-gray-400;
+}
+
+.error-state {
+  @apply bg-red-900/50 border border-red-500 text-red-200 px-4 py-3 rounded mb-4;
+}

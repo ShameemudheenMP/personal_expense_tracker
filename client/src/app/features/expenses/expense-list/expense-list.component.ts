@@ -1,7 +1,7 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ExpenseService } from 'src/app/services/expense.service';
-import { Expense } from 'models/expense.model';
+import { Expense } from 'src/app/models/expense.model';
 
 @Component({
   selector: 'app-expense-list',

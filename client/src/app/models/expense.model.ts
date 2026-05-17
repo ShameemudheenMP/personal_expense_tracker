@@ -1,3 +1,10 @@
+// The 'T' is a generic type. It means "Whatever data type I pass in".
+export interface ApiResponse<T> {
+  resultLength: number;
+  result: T;
+}
+
+
 export interface Expense {
   id: number, 
   title: string,

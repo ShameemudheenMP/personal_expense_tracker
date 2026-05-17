@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-900 text-gray-100;
+  }
+}
+
+@layer components {
+  .table-base {
+    @apply w-full text-left border-collapse bg-gray-800 rounded-lg overflow-hidden shadow-lg border border-gray-700;
+  }
+  
+  .table-header {
+    @apply bg-gray-800 text-gray-200 border-b border-gray-600;
+  }
+
+  .table-cell {
+    @apply py-3 px-4;
+  }
+}
